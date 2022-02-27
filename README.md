@@ -1,8 +1,8 @@
-# eslint-config-meteor
+# What is this
 
-This is an [ESLint](https://eslint.org) configuration for [Meteor](https://www.meteor.com) apps which implements the recommendations from the [Meteor Guide](https://guide.meteor.com/)'s section on [Code style](https://guide.meteor.com/code-style.html#eslint).
+Based on `@meteorjs/eslint-config-meteor`:
 
-> This repository has been merged into Meteor main repository. You can [find it there](https://github.com/meteor/meteor/tree/devel/npm-packages/eslint-config-meteor).
+> This is an [ESLint](https://eslint.org) configuration for [Meteor](https://www.meteor.com) apps which implements the recommendations from the [Meteor Guide](https://guide.meteor.com/)'s section on [Code style](https://guide.meteor.com/code-style.html#eslint).
 
 # Usage
 
@@ -11,7 +11,7 @@ This is an [ESLint](https://eslint.org) configuration for [Meteor](https://www.m
 Install by running:
 
 ```sh
-meteor npm install --save-dev @meteorjs/eslint-config-meteor
+meteor npm install --save-dev @majus/eslint-config-meteor
 ```
 
 > Using `meteor npm` is optional for this package, but best-practice for Meteor projects in general.
@@ -26,15 +26,15 @@ The peer dependencies can be installed manually by following the `package.json` 
 $ # Install `install-peerdeps` within the current Meteor tool version.
 $ meteor npm install --global install-peerdeps
 $ # Run the newly installed `install-peerdeps` to install this package and its dependencies.
-$ meteor install-peerdeps --dev @meteorjs/eslint-config-meteor
+$ meteor install-peerdeps --dev @majus/eslint-config-meteor
 ```
 
 ## Configure
 
-Add the following to the project's `package.json`:
+Create `.eslintrc.json` file in the root of your project with the following contents:
 
 ```json
-"eslintConfig": {
-  "extends": "@meteorjs/eslint-config-meteor"
+{
+  "extends": "@majus/eslint-config-meteor",
 }
 ```
