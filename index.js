@@ -66,12 +66,7 @@ module.exports = {
         ignoreChainWithDepth: 5,
       },
     ],
-    'padded-blocks': [
-      'error',
-      {
-        classes: 'always',
-      },
-    ],
+    'padded-blocks': ['error', 'never'],
     'lines-between-class-members': [
       'warn',
       'always',
@@ -83,15 +78,15 @@ module.exports = {
     'no-unused-expressions': 0,
   },
   globals: {
-    'Assets': 'readonly',
-    'Package': 'readonly',
-    'Npm': 'readonly',
-    'describe': 'readonly',
-    'it': 'readonly',
-    'test': 'readonly',
-    'before': 'readonly',
-    'beforeEach': 'readonly',
-    'afterEach': 'readonly',
-    'after': 'readonly'
-  }
-}
+    Assets: 'readonly',
+    Package: 'readonly',
+    Npm: 'readonly',
+    describe: 'readonly',
+    it: 'readonly',
+    test: 'readonly',
+    before: 'readonly',
+    beforeEach: 'readonly',
+    afterEach: 'readonly',
+    after: 'readonly',
+  },
+};

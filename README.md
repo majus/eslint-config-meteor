@@ -18,7 +18,7 @@ meteor npm install --save-dev @majus/eslint-config-meteor
 
 ### Peer Dependencies
 
-This package has several [peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) listed in its [`package.json`'s `peerDependencies` section](package.json).  Warnings will be encountered during the installation step above if the project doesn't already use these modules.
+This package has several [peer dependencies](https://nodejs.org/en/blog/npm/peer-dependencies/) listed in its [`package.json`'s `peerDependencies` section](package.json). Warnings will be encountered during the installation step above if the project doesn't already use these modules.
 
 The peer dependencies can be installed manually by following the `package.json` specification and using `meteor npm install --save-dev <package>` or, alternatively, using an automated tool:
 
@@ -26,7 +26,7 @@ The peer dependencies can be installed manually by following the `package.json` 
 $ # Install `install-peerdeps` within the current Meteor tool version.
 $ meteor npm install --global install-peerdeps
 $ # Run the newly installed `install-peerdeps` to install this package and its dependencies.
-$ meteor install-peerdeps --dev @majus/eslint-config-meteor
+$ meteor npx install-peerdeps --dev @majus/eslint-config-meteor
 ```
 
 ## Configure
@@ -35,6 +35,6 @@ Create `.eslintrc.json` file in the root of your project with the following cont
 
 ```json
 {
-  "extends": "@majus/eslint-config-meteor",
+  "extends": "@majus/eslint-config-meteor"
 }
 ```
