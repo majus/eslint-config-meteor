@@ -1,6 +1,6 @@
 {
   "name": "@majus/eslint-config-meteor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESLint configuration for Meteor",
   "main": "index.js",
   "scripts": {
@@ -21,11 +21,11 @@
     "@babel/eslint-parser": ">= 7",
     "eslint": ">= 8",
     "eslint-config-airbnb": ">= 19",
-    "eslint-plugin-jsx-a11y": ">= 6",
-    "eslint-plugin-react": ">= 7",
-    "eslint-plugin-react-hooks": ">= 4",
     "eslint-import-resolver-meteor": ">= 0.4.0",
     "eslint-plugin-import": ">= 2.25",
-    "eslint-plugin-meteor": ">= 7.3"
+    "eslint-plugin-jsx-a11y": ">= 6",
+    "eslint-plugin-meteor": ">= 7.3",
+    "eslint-plugin-react": ">= 7",
+    "eslint-plugin-react-hooks": ">= 4"
   }
 }

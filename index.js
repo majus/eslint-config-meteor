@@ -76,6 +76,7 @@ module.exports = {
     ],
     'class-methods-use-this': 0,
     'no-unused-expressions': 0,
+    'implicit-arrow-linebreak': 0,
   },
   globals: {
     Assets: 'readonly',
